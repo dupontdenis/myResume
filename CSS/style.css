@@ -1,0 +1,105 @@
+@import 'variables.css';
+
+/* rest of your CSS code */
+body {
+  font-family: var(--main-font);
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.conteneur {
+  display: flex;
+  justify-content: center;
+  gap: var(--gap);
+  width: 100%;
+  min-height: 100vh;
+}
+
+
+.photo-wrapper {
+  position: sticky;
+  top: 0;
+  flex: 0 0 200px;
+  height: 100vh;
+}
+
+.photo img,
+.conteneur .cv-sections {
+  width: 100%;
+}
+
+.section {
+  margin-bottom: 20px;
+}
+
+.section h2 {
+  color: var(--main-color);
+  margin-bottom: 10px;
+}
+
+header {
+  background-color: var(--bg-color);
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+header h1 {
+  margin: 0;
+  color: var(--main-color);
+}
+
+.skills p {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 30%;
+}
+
+.stars {
+  color: var(--star-color);
+  font-size: 1.5em;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.stars {
+  background: linear-gradient(to right, var(--star-hover-color) 50%, var(--star-color) 50%);
+  background-size: 200% 100%;
+  background-position: 100% 0;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: background-position 0.8s;
+}
+
+.skills p:hover .stars {
+  background-position: 0 0;
+}
+
+
+
+@media (max-width: 450px) {
+
+  .conteneur {
+    display: block;
+    width: 100%;
+    min-height: 100vh;
+  }
+
+  .photo-wrapper {
+    position: static;
+    height: auto;
+  }
+
+  .conteneur .cv-sections,
+  .section,
+  p {
+    width: 100%;
+  }
+}

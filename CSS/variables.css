@@ -1,0 +1,8 @@
+:root {
+  --main-font: 'Courier New', Courier, monospace;
+  --main-color: #333;
+  --bg-color: #f8f9fa;
+  --star-color: #ccc;
+  --star-hover-color: gold;
+  --gap: 20px;
+}
