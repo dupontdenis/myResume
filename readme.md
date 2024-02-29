@@ -2,7 +2,7 @@
 
 ## Live Demo
 
-The project "My resule" can be found at: [https://dupontdenis.github.io/myResume/](https://dupontdenis.github.io/myResume/)
+The project "My resume" can be found at: [https://dupontdenis.github.io/myResume/](https://dupontdenis.github.io/myResume/)
 
 ## Description
 
