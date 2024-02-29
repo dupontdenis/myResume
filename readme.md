@@ -1,5 +1,9 @@
 # HTML Resume
 
+## Live Demo
+
+The project "My resule" can be found at: [https://dupontdenis.github.io/myResume/](https://dupontdenis.github.io/myResume/)
+
 ## Description
 
 This project is a responsive HTML resume that uses CSS Flexbox for layout. It's designed to provide a concise overview of my skills, experience, and education.
